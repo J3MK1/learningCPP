@@ -4,7 +4,7 @@ using std::cin;
 using std::endl;
 
 //Program in which the user can enter a number and the table of the number entered is shown on the screen.
-
+/*
 int main()
 {
 	int number;
@@ -126,5 +126,20 @@ int main()
 		default: cout << "Not valid!";
 	}
 	system("pause>0");
+}
+*/
+
+//Leveled Up!
+
+int main(){
+	int number;
+
+	cout << "Number: ";
+	cin >> number;
+
+	for (int i = 0; i <= 10; i++){
+		cout << number << "x" << i << " = " << number*i <<endl;
+	}
+
 }
 
